@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: Helvetica;
+    background-color: #173070;
+}
+
+.container {
+    max-width: 1170px;
+    background-image: linear-gradient(#F5D90F,#EB7C2E, #ed6e14, #E61D23);
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color:#D80600 ;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color:#E61D23;
+    text-align: center;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.header-container {
+    color: #fff !important;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.header-container p {
+    font-style: italic;
+    margin: 0;
+}
+
+main {
+    padding: 15px;
+    margin: 15px;
+}
+
+.img-container {
+    text-align: center;    
+}
+
+figcaption {
+    font-weight: bold;
+    color: #fff;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+.img-container img {
+    width: 600px;
+    height: auto;
+}
+
+.biography-container,
+.dbz-container,
+.curiosity-container,
+.influence-container,
+.moreInformation{
+    color: #EB7C2E;
+    padding: 25px 0;
+    margin: 25px 0;
+    text-align: justify;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.quotes-container {
+    background-color: #F5D90F ;
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 5px;
+}
+
+.quotes-container blockquote,
+.quotes-container p {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
+}
+
+.curiosity-container li{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.img-dbz {
+    text-align: center;
+
+}
+
+.img-dbz img {
+    margin: 10px 0;
+}
+
+.quotes-container p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer-container p{
+    text-align: center;
+    color: #fff;
+}
