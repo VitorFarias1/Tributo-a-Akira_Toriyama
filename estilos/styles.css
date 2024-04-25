@@ -8,6 +8,7 @@
 html {
     font-family: Helvetica;
     background-color: #173070;
+    margin: 10px;
 }
 
 .container {
@@ -39,7 +40,7 @@ p {
 }
 
 .header-container {
-    color: #fff !important;
+    color: #173070;
     text-align: center;
     padding: 15px;
     margin: 15px;
@@ -55,7 +56,12 @@ main {
     margin: 15px;
 }
 
-.img-container {
+img {
+    max-width: 100%;
+}
+
+.img-container,
+.img-dbz {
     text-align: center;    
 }
 
@@ -73,11 +79,8 @@ figure {
     height: auto;
 }
 
-.biography-container,
-.dbz-container,
-.curiosity-container,
-.influence-container,
-.moreInformation{
+.content,
+.moreInformation {
     color: #EB7C2E;
     padding: 25px 0;
     margin: 25px 0;
@@ -85,6 +88,10 @@ figure {
     background-color: #fff;
     border-radius: 5px;
     padding: 25px;
+}
+
+.moreInformation p {
+    text-align: center;
 }
 
 .quotes-container {
@@ -102,14 +109,9 @@ figure {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
 }
 
-.curiosity-container li{
+li{
     margin-top: 15px;
     font-weight: bold;
-}
-
-.img-dbz {
-    text-align: center;
-
 }
 
 .img-dbz img {
